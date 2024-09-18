@@ -1,0 +1,11 @@
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+local Window = Rayfield:CreateWindow({
+    Name = "Sinnys Arsenal Universal",
+    LoadingTitle = "Sinnys Arsenal Universal",
+    LoadingSubtitle = "By: Kfzv#0",
+    ConfigurationSaving = {
+        Enabled = true,
+        FolderName = "Sinnys Arsenal Universal",
+        FileName = "Sinnyhub"
+    },
+})
