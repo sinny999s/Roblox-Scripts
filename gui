@@ -16,7 +16,11 @@ local Window = Rayfield:CreateWindow({
 -- Create the "Main" tab
 local MainTab = Window:CreateTab("Main")
 
--- Create a section within the "Main" tab
+-- Create sections within the "Main" tab
 local MainSection = MainTab:CreateSection("Main")
 
--- Add additional UI elements to MainSection here
+-- Create the "Visual" tab
+local VisualTab = Window:CreateTab("Visual")
+
+-- Create sections within the "Visual" tab
+local VisualSection = MainTab:CreateSection("Visual")
